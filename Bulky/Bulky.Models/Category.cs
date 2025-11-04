@@ -9,7 +9,7 @@ namespace BulkyBook.Models
         public int Id { get; set; }
         [Required]
         [MaxLength(30)]
-        [DisplayName("Name")]
+        [DisplayName("Name_原本")]
         public string Name { get; set; }
         [DisplayName("Order")]
         [Range(1, 100, ErrorMessage = "Display Order must be between 1-100")]
