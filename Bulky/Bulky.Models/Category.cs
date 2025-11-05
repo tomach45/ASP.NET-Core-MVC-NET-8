@@ -10,7 +10,7 @@ namespace BulkyBook.Models
         [Required]
         [MaxLength(30)]
         [DisplayName("Name_Ver6")]
-        public string Name { get; set; }
+        public string Name_Ver6 { get; set; }
         [Range(1, 100, ErrorMessage = "Display Order must be between 1-100")]
         [DisplayName("Order_Ver5")]
         public int DisplayOrder { get; set; }
