@@ -15,6 +15,12 @@ namespace BulkyBook.Models
         [DisplayName("Order_Ver6")]
         public int DisplayOrder { get; set; }
 
+        public void Genpon()
+        {
+            string genpon = string.Empty;
+            Name_Ver7 = genpon;
+        }
+
         public void ver1()
         {
             string ver1 = string.Empty;
