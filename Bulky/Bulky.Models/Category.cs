@@ -26,5 +26,11 @@ namespace BulkyBook.Models
             string ver1 = string.Empty;
             Name_Ver7 = ver1;
         }
+
+        public void Genpon2()
+        {
+            string genpon2 = string.Empty;
+            Name_Ver7 = genpon2;
+        }
     }
 }
