@@ -26,7 +26,7 @@ namespace BulkyBook.Models
             string ver2 = string.Empty;
             Name_Ver1 = "dakjbfdskbfis";
             string ver3 = string.Empty;
-            Name_Ver1 ="adadadadvjjugu";
+            Name_Ver1 ="自分の修正";
         }
     }
 }
